@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Gmail API credentials - NEVER UPLOAD
+client_secret.json
+token.json
+credentials.json
+
+# Environment variables
+.env
+.env.*
+
+# Local email processing data
+processed_emails.json
+
+# IDE and logs
+.vscode/
+.idea/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
